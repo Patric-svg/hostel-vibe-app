@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #020617; /* slate-950 */
+    color: #f8fafc; /* slate-50 */
+    /* Creates a subtle dot-grid background for that modern tech feel */
+    background-image: radial-gradient(#1e293b 1px, transparent 1px);
+    background-size: 30px 30px;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+}
